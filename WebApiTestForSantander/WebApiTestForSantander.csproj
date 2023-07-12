@@ -13,4 +13,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Infrastructure\RequestModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Infrastructure\RequestModels\" />
+  </ItemGroup>
 </Project>
