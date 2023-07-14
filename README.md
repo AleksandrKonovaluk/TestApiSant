@@ -20,3 +20,11 @@ possible ways to improve
 3) Can be added static mapper to simplify explicit mapping of incoming values to outcoming (0.5d)
 
 
+Second way to see the result of application!
+  * open the core folder of app it terminal
+  * run "dotnet build" command
+  * go to the folder "WebApiTestForSantander"
+  * run "dotnet run" command
+  * pay attention to the port on what application will be started
+  * go in any browser to the http://localhost:{AAAA}/swagger/index.html where {AAAA} is port from point above
+  
